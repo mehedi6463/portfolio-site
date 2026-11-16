@@ -1,0 +1,216 @@
+@import 'tailwindcss';
+
+/* ============================================================
+   DESIGN TOKENS
+   Palette: #092635 · #1B4242 · #5C8374 · #9EC8B9
+   These are fallbacks. The live values come from content.json
+   (admin → Design) via src/components/ThemeStyle.jsx.
+   ============================================================ */
+:root {
+  --p-950: #092635;
+  --p-800: #1b4242;
+  --p-500: #5c8374;
+  --p-200: #9ec8b9;
+}
+
+:root,
+[data-theme='dark'] {
+  --bg: #061a23;
+  --bg-2: #092635;
+  --surface: #0b2a38;
+  --surface-2: #0f3240;
+  --line: rgb(158 200 185 / 0.11);
+  --line-strong: rgb(158 200 185 / 0.22);
+  --ink: #eaf4f1;
+  --muted: #93b2aa;
+  --accent: #9ec8b9;
+  --accent-text: #9ec8b9;
+  --accent-2: #5c8374;
+  --deep: #1b4242;
+  --on-accent: #092635;
+  --glow: rgb(158 200 185 / 0.16);
+  --shadow: 0 30px 60px -30px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
+[data-theme='light'] {
+  --bg: #f3f8f6;
+  --bg-2: #e8f1ed;
+  --surface: #ffffff;
+  --surface-2: #f6faf8;
+  --line: rgb(9 38 53 / 0.09);
+  --line-strong: rgb(9 38 53 / 0.18);
+  --ink: #092635;
+  --muted: #476660;
+  --accent: #1b4242;
+  --accent-text: #2a6455;
+  --accent-2: #5c8374;
+  --deep: #1b4242;
+  --on-accent: #f3f8f6;
+  --glow: rgb(92 131 116 / 0.18);
+  --shadow: 0 30px 60px -34px rgb(9 38 53 / 0.35);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-accent-2: var(--accent-2);
+  --color-deep: var(--deep);
+  --color-on-accent: var(--on-accent);
+
+  /* brand palette swatches (theme-independent; set from the admin "Design" tab) */
+  --color-teal-950: var(--p-950);
+  --color-teal-800: var(--p-800);
+  --color-teal-500: var(--p-500);
+  --color-teal-200: var(--p-200);
+
+  --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  ::selection {
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent-text);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  img { max-width: 100%; display: block; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+html { scrollbar-color: var(--accent-2) var(--bg); scrollbar-width: thin; }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb {
+  background: var(--accent-2);
+  border-radius: 999px;
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+@utility container-x {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  @media (width >= 640px) { padding-inline: 2rem; }
+}
+
+@utility section-y {
+  padding-block: 5rem;
+  @media (width >= 768px) { padding-block: 7rem; }
+}
+
+/* faint engineering grid, faded at the edges */
+@utility bg-grid {
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 30%, transparent 75%);
+}
+
+@utility text-gradient {
+  background: linear-gradient(100deg, var(--accent-text) 0%, var(--accent-2) 45%, var(--accent-text) 90%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 8s linear infinite;
+}
+
+@utility card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+}
+
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+/* signature image used as a mask so it can take any colour */
+@utility signature {
+  mask: var(--sig) no-repeat left center / contain;
+  -webkit-mask: var(--sig) no-repeat left center / contain;
+  background: var(--accent-text);
+}
+
+@custom-variant light (&:where([data-theme='light'], [data-theme='light'] *));
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+@keyframes shimmer {
+  to { background-position: 200% center; }
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+@keyframes ping-soft {
+  75%, 100% { transform: scale(2.2); opacity: 0; }
+}
+@keyframes drift {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(4%, -6%, 0) scale(1.08); }
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+
+# admin login (password hash) and content backups stay on this computer
+admin-credentials.json
+src/content/.backups/

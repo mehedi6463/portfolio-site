@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm *)",
+      "PowerShell(npx *)",
+      "PowerShell(node *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Edit(./**)",
+      "PowerShell(node -v)",
+      "PowerShell(npm -v)",
+      "PowerShell(npm install react@18.3.1 react-dom@18.3.1 motion lucide-react simple-icons 2>$null)",
+      "PowerShell(npm install -D vite@6 @vitejs/plugin-react@4 tailwindcss@4 @tailwindcss/vite@4 sharp 2>$null)",
+      "PowerShell(npm ls --depth=0)",
+      "PowerShell(New-Item -ItemType Directory -Force assets-src, scripts, src\\\\assets, public | Out-Null; $s=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\images\"; Copy-Item \"$s\\\\2.png\" assets-src\\\\profile.png; Copy-Item \"$s\\\\3.png\" assets-src\\\\signature.png; Copy-Item \"$s\\\\4.jpg\" assets-src\\\\about.jpg; node -e \"const s=require\\('sharp'\\);\\(async\\(\\)=>{for\\(const f of ['profile.png','signature.png','about.jpg']\\){const i=s\\('assets-src/'+f\\);const m=await i.metadata\\(\\);const st=await i.stats\\(\\);console.log\\(f,m.width,m.height,m.channels,m.hasAlpha,'opaque:',st.isOpaque, 'orient',m.orientation\\)}}\\)\\(\\)\")",
+      "PowerShell(node scripts/make-cv-placeholder.mjs)",
+      "PowerShell(node -e \"import\\('simple-icons'\\).then\\(m=>{for\\(const k of ['siHtml5','siCss','siCss3','siJavascript','siTailwindcss','siBootstrap','siReact','siGit','siGithub','siFacebook','siLinkedin','siVite']\\){console.log\\(k, m[k]?m[k].hex:'MISSING'\\)}}\\)\")",
+      "PowerShell(node -e \"import\\('lucide-react'\\).then\\(m=>{for\\(const k of ['Github','Linkedin','Facebook','MonitorSmartphone','Gauge','Layers','Rocket','Code2','CodeXml','LayoutTemplate','Briefcase','Sparkles','SquareCode','Braces']\\){console.log\\(k, m[k]?'ok':'MISSING'\\)}}\\)\")",
+      "PowerShell(node -e \"import\\('lucide-react'\\).then\\(m=>{const ks='Atom Building2 PenTool Gauge MessagesSquare Compass LayoutTemplate CodeXml ScanSearch PackageCheck Globe MonitorSmartphone Menu X Sun Moon ArrowUp ArrowUpRight ArrowRight Download Mail MapPin Send Loader2 LoaderCircle CheckCircle2 CircleCheck AlertCircle CircleAlert ExternalLink Briefcase Calendar Sparkles FileText Quote Terminal'.split\\(' '\\);console.log\\(ks.filter\\(k=>!m[k]\\).join\\(','\\)||'all ok'\\)}\\)\")",
+      "PowerShell(node -e \"import\\('motion/react'\\).then\\(m=>console.log\\(['motion','AnimatePresence','MotionConfig','useReducedMotion','useScroll','useTransform','useSpring','LayoutGroup','useInView'].map\\(k=>k+':'+\\(k in m\\)\\).join\\(' '\\)\\)\\)\")",
+      "PowerShell(npm run images)",
+      "PowerShell(node -e \"require\\('sharp'\\)\\('src/assets/about.webp'\\).resize\\(400\\).png\\(\\).toFile\\('C:/Users/N-USER/AppData/Local/Temp/claude/ea05bdce8247ecde/52c68755-87d5-4163-8a27-396c881ede6a/scratchpad/about.png'\\).then\\(\\(\\)=>console.log\\('ok'\\)\\)\")",
+      "PowerShell(npm run build 2>&1)",
+      "PowerShell(Start-Process -WindowStyle Hidden -FilePath \"cmd.exe\" -ArgumentList \"/c\",\"npx vite preview --port 4173 --strictPort > `\"$env:TEMP\\\\vite-preview.log`\" 2>&1\" -WorkingDirectory \"c:\\\\Users\\\\N-USER\\\\Desktop\\\\portfolio-site\"; Start-Sleep -Seconds 4; \\(Invoke-WebRequest -UseBasicParsing http://localhost:4173\\).StatusCode)",
+      "PowerShell($sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; New-Item -ItemType Directory -Force \"$sp\\\\shots\" | Out-Null; node \"$sp\\\\check.mjs\" \"$sp\\\\shots\")",
+      "PowerShell(npm run build 2>&1 | Select-String \"built in|error\"; $sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; node \"$sp\\\\sections.mjs\" \"$sp\\\\shots\" 1440; node \"$sp\\\\sections.mjs\" \"$sp\\\\shots\" 390)",
+      "PowerShell(npm run build 2>&1 | Select-String \"built in|error\"; $sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; node \"$sp\\\\check.mjs\" \"$sp\\\\shots\" 2>&1 | Select-String \"==|errors|cards|toggle|status|menu|CV\")",
+      "PowerShell($sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; node \"$sp\\\\sections.mjs\" \"$sp\\\\shots\" 1440 | Out-Null)",
+      "PowerShell(Start-Process -WindowStyle Hidden -FilePath \"cmd.exe\" -ArgumentList \"/c\",\"npx vite --port 5173 --strictPort > `\"$env:TEMP\\\\vite-dev.log`\" 2>&1\" -WorkingDirectory \"c:\\\\Users\\\\N-USER\\\\Desktop\\\\portfolio-site\"; Start-Sleep -Seconds 4; \\(Invoke-WebRequest -UseBasicParsing http://localhost:5173\\).StatusCode; Start-Process \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\" \"http://localhost:5173/\")",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "PowerShell(try { \\(Invoke-WebRequest -UseBasicParsing http://localhost:5173/admin -TimeoutSec 5\\).StatusCode } catch { \"down\"; Start-Process -WindowStyle Hidden -FilePath \"cmd.exe\" -ArgumentList \"/c\",\"npx vite --port 5173 --strictPort > `\"$env:TEMP\\\\vite-dev.log`\" 2>&1\" -WorkingDirectory \"c:\\\\Users\\\\N-USER\\\\Desktop\\\\portfolio-site\"; Start-Sleep -Seconds 5 }; $sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; node \"$sp\\\\admin-check.mjs\" \"$sp\\\\shots\")",
+      "PowerShell(npm run build 2>&1 | Select-String \"built in|error|warn\"; $sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; \\(Get-Content \"$sp\\\\check.mjs\"\\) -replace '4173','5173' | Set-Content \"$sp\\\\check-dev.mjs\"; node \"$sp\\\\check-dev.mjs\" \"$sp\\\\shots\" 2>&1 | Select-String \"==|errors|cards|toggle|status|menu|CV\" | ForEach-Object { $_.Line.Substring\\(0, [Math]::Min\\(160, $_.Line.Length\\)\\) })",
+      "PowerShell($sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; node \"$sp\\\\check-dev.mjs\" \"$sp\\\\shots\" 2>&1 | Select-String \"^==\" | ForEach-Object { if \\($_.Line -match 'no console errors'\\) { \\($_.Line -split ' '\\)[1] + ' no console errors' } else { $_.Line.Substring\\($_.Line.IndexOf\\(']}'\\)\\) } })",
+      "PowerShell(try { \\(Invoke-WebRequest -UseBasicParsing http://localhost:5173/ -TimeoutSec 5\\).StatusCode } catch { Start-Process -WindowStyle Hidden -FilePath \"cmd.exe\" -ArgumentList \"/c\",\"npx vite --port 5173 --strictPort > `\"$env:TEMP\\\\vite-dev.log`\" 2>&1\" -WorkingDirectory \"c:\\\\Users\\\\N-USER\\\\Desktop\\\\portfolio-site\"; Start-Sleep -Seconds 5; \\(Invoke-WebRequest -UseBasicParsing http://localhost:5173/\\).StatusCode }; Start-Process \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\" \"http://localhost:5173/ http://localhost:5173/admin\"; code \"c:\\\\Users\\\\N-USER\\\\Desktop\\\\portfolio-site\" \"c:\\\\Users\\\\N-USER\\\\Desktop\\\\portfolio-site\\\\src\\\\content\\\\content.json\")",
+      "PowerShell($sp=\"C:\\\\Users\\\\N-USER\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\ea05bdce8247ecde\\\\52c68755-87d5-4163-8a27-396c881ede6a\\\\scratchpad\"; node \"$sp\\\\chips.mjs\" \"$sp\\\\shots\")"
+    ]
+  }
+}

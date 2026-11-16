@@ -1,0 +1,604 @@
+{
+  "site": {
+    "name": "Mehedi Hasan",
+    "logo": "MEHEDI",
+    "logoMark": "MH",
+    "role": "Frontend Developer",
+    "experience": "5–6 years",
+    "email": "hello@your-domain.com",
+    "location": "Your City, Country",
+    "cvUrl": "/cv/Mehedi-Hasan-CV.pdf",
+    "cvIsPlaceholder": true,
+    "cvLabel": "Download CV",
+    "availability": {
+      "available": true,
+      "label": "Available for freelance & full-time roles",
+      "busyLabel": "Currently booked — open to future projects"
+    },
+    "socials": [
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "href": "https://github.com/your-username"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "href": "https://www.linkedin.com/in/your-username"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "href": "https://www.facebook.com/your-username"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Mehedi Hasan — Frontend Developer",
+    "description": "Mehedi Hasan is a Frontend Developer with 5–6 years of experience building modern, responsive, high-performance websites and web apps with React, JavaScript, Tailwind CSS, WordPress and Wix.",
+    "siteUrl": "https://your-domain.com/"
+  },
+  "theme": {
+    "defaultMode": "dark",
+    "dark": {
+      "bg": "#061a23",
+      "bg2": "#092635",
+      "surface": "#0b2a38",
+      "ink": "#eaf4f1",
+      "muted": "#93b2aa",
+      "accent": "#9ec8b9",
+      "accent2": "#5c8374"
+    },
+    "light": {
+      "bg": "#f3f8f6",
+      "bg2": "#e8f1ed",
+      "surface": "#ffffff",
+      "ink": "#092635",
+      "muted": "#476660",
+      "accent": "#1b4242",
+      "accent2": "#5c8374"
+    }
+  },
+  "layout": [
+    {
+      "id": "about",
+      "label": "About",
+      "visible": true
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "visible": true
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "visible": true
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "visible": true
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "visible": true
+    },
+    {
+      "id": "process",
+      "label": "Process",
+      "visible": true,
+      "hideFromNav": true
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "visible": true
+    }
+  ],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "showWave": true,
+    "headline": "Frontend Developer Crafting",
+    "highlight": "Modern Digital Experiences.",
+    "text": "I'm a passionate Frontend Developer with 5–6 years of experience turning creative ideas into responsive, interactive, and high-performance web experiences.",
+    "image": "/images/profile.webp",
+    "imageAlt": "Portrait of Mehedi Hasan",
+    "primaryLabel": "View My Work",
+    "resumeLabel": "Download Resume",
+    "contactLabel": "Contact Me",
+    "scrollLabel": "Scroll to explore",
+    "chips": [
+      {
+        "icon": "react",
+        "label": "React.js"
+      },
+      {
+        "icon": "tailwind",
+        "label": "Tailwind CSS"
+      },
+      {
+        "icon": "javascript",
+        "label": "JavaScript"
+      },
+      {
+        "icon": "html5",
+        "label": "HTML5"
+      },
+      {
+        "icon": "css3",
+        "label": "CSS3"
+      }
+    ],
+    "codeCard": {
+      "show": true,
+      "filename": "mehedi.js",
+      "variable": "mehedi",
+      "entries": [
+        {
+          "key": "role",
+          "value": "'Frontend Dev'"
+        },
+        {
+          "key": "stack",
+          "value": "['React', 'Tailwind']"
+        },
+        {
+          "key": "experience",
+          "value": "'5–6 yrs'"
+        },
+        {
+          "key": "coffee",
+          "value": "true"
+        }
+      ]
+    },
+    "showMarquee": true,
+    "marquee": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "React.js",
+      "Tailwind CSS",
+      "Bootstrap",
+      "WordPress",
+      "Wix",
+      "Responsive Design",
+      "Git & GitHub",
+      "Performance"
+    ]
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "A Little About Me",
+    "image": "/images/about.webp",
+    "imageAlt": "Mehedi Hasan sitting on a motorcycle on a city street",
+    "caption": "Mehedi Hasan · Frontend Developer",
+    "paragraphs": [
+      "I'm **Mehedi Hasan**, a frontend developer who enjoys the moment a design stops being a static picture and becomes something people can actually use. For the past **5–6 years**, that has been my work — building websites and web applications that are fast, responsive and easy to use.",
+      "My focus is turning UI/UX designs into clean, reusable and maintainable frontend code with HTML, CSS, JavaScript, React and Tailwind CSS — and building and customising sites on CMS platforms like WordPress and Wix. I care about the details that make an interface feel right: consistent spacing, smooth interactions, accessible markup and layouts that hold up on every screen size.",
+      "The web keeps moving, so I keep learning — exploring new tools, patterns and techniques that help me build better experiences."
+    ],
+    "showSignature": true,
+    "signature": "/images/signature.png",
+    "signatureLabel": "Built with care by",
+    "facts": [
+      {
+        "label": "Name",
+        "value": "Mehedi Hasan",
+        "placeholder": false
+      },
+      {
+        "label": "Role",
+        "value": "Frontend Developer",
+        "placeholder": false
+      },
+      {
+        "label": "Experience",
+        "value": "5–6 years",
+        "placeholder": false
+      },
+      {
+        "label": "Location",
+        "value": "Your City, Country",
+        "placeholder": true
+      }
+    ],
+    "pillars": [
+      {
+        "icon": "Code2",
+        "title": "Clean, maintainable code",
+        "text": "Reusable components and readable structure that other developers can pick up easily."
+      },
+      {
+        "icon": "MonitorSmartphone",
+        "title": "User experience first",
+        "text": "Responsive, accessible interfaces that feel natural on any device."
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Always learning",
+        "text": "Exploring new tools and techniques to keep my work modern and efficient."
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Technologies I Work With",
+    "description": "The tools, platforms and practices I rely on to ship reliable, good-looking websites — no made-up percentages, just what I use.",
+    "groups": [
+      {
+        "title": "Core Technologies",
+        "caption": "The foundation of everything I build.",
+        "skills": [
+          {
+            "name": "HTML5",
+            "icon": "html5",
+            "note": "Semantic, accessible markup"
+          },
+          {
+            "name": "CSS3",
+            "icon": "css3",
+            "note": "Layouts, animation, modern CSS"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "javascript",
+            "note": "ES6+ and the DOM"
+          }
+        ]
+      },
+      {
+        "title": "CSS Frameworks",
+        "caption": "Fast, consistent styling systems.",
+        "skills": [
+          {
+            "name": "Tailwind CSS",
+            "icon": "tailwind",
+            "note": "Utility-first design systems"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "bootstrap",
+            "note": "Grid & component library"
+          }
+        ]
+      },
+      {
+        "title": "Frontend Development",
+        "caption": "Component-driven interfaces.",
+        "skills": [
+          {
+            "name": "React.js",
+            "icon": "react",
+            "note": "Hooks, state & reusable components"
+          }
+        ]
+      },
+      {
+        "title": "CMS & Website Builders",
+        "caption": "Sites clients can update themselves.",
+        "skills": [
+          {
+            "name": "WordPress",
+            "icon": "wordpress",
+            "note": "Themes, page builders & customisation"
+          },
+          {
+            "name": "Wix",
+            "icon": "wix",
+            "note": "Site setup, layouts & customisation"
+          }
+        ]
+      },
+      {
+        "title": "Other Skills",
+        "caption": "What makes a site feel finished.",
+        "skills": [
+          {
+            "name": "Responsive Design",
+            "icon": "MonitorSmartphone",
+            "note": "Mobile-first, every breakpoint"
+          },
+          {
+            "name": "UI Implementation",
+            "icon": "PenTool",
+            "note": "Pixel-accurate from Figma/XD"
+          },
+          {
+            "name": "Cross-browser Compatibility",
+            "icon": "Globe",
+            "note": "Consistent everywhere"
+          },
+          {
+            "name": "Performance Optimization",
+            "icon": "Gauge",
+            "note": "Fast loads, smooth UI"
+          },
+          {
+            "name": "Git & GitHub",
+            "icon": "git",
+            "note": "Version control & collaboration"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "My Professional Journey",
+    "badgeTitle": "Frontend Developer",
+    "badgeText": "5–6 years of experience",
+    "items": [
+      {
+        "role": "Frontend Developer",
+        "company": "[Company Name]",
+        "period": "[Start Month Year] — Present",
+        "location": "[City / Remote]",
+        "placeholder": true,
+        "summary": "[One or two sentences describing the company, the team you work in and the kind of products you build.]",
+        "responsibilities": [
+          "[Responsibility — e.g. what you build and own day to day]",
+          "[Responsibility — e.g. who you collaborate with (designers, backend, PMs)]",
+          "[Responsibility — e.g. standards you maintain (accessibility, performance, code review)]"
+        ],
+        "projects": [
+          "[Key project]",
+          "[Key project]"
+        ],
+        "achievements": [
+          "[Achievement — only add real, verifiable results]"
+        ],
+        "stack": [
+          "React.js",
+          "JavaScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "[Previous Company Name]",
+        "period": "[Start Month Year] — [End Month Year]",
+        "location": "[City / Remote]",
+        "placeholder": true,
+        "summary": "[Short description of this role.]",
+        "responsibilities": [
+          "[Responsibility]",
+          "[Responsibility]",
+          "[Responsibility]"
+        ],
+        "projects": [
+          "[Key project]"
+        ],
+        "achievements": [
+          "[Achievement]"
+        ],
+        "stack": [
+          "HTML5",
+          "CSS3",
+          "Bootstrap",
+          "JavaScript"
+        ]
+      },
+      {
+        "role": "[Earlier Role, e.g. Junior Frontend Developer]",
+        "company": "[Company Name]",
+        "period": "[Start Month Year] — [End Month Year]",
+        "location": "[City / Remote]",
+        "placeholder": true,
+        "summary": "[Where your frontend journey started.]",
+        "responsibilities": [
+          "[Responsibility]",
+          "[Responsibility]"
+        ],
+        "projects": [],
+        "achievements": [],
+        "stack": [
+          "HTML5",
+          "CSS3",
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Some Things I've Built",
+    "description": "A selection of work across different kinds of websites. The entries below are samples. My real projects will replace them soon.",
+    "categories": [
+      "Business Website",
+      "Corporate Website",
+      "Portfolio Website",
+      "E-commerce Frontend",
+      "Dashboard UI",
+      "Landing Page"
+    ],
+    "items": [
+      {
+        "id": "business",
+        "title": "[Business Website Project]",
+        "category": "Business Website",
+        "layout": "business",
+        "description": "Sample entry — a responsive multi-page website for a local business with service pages, enquiry form and SEO-friendly structure.",
+        "tech": [
+          "React.js",
+          "Tailwind CSS",
+          "Vite"
+        ],
+        "image": "",
+        "liveUrl": "",
+        "githubUrl": "",
+        "placeholder": true
+      },
+      {
+        "id": "corporate",
+        "title": "[Corporate Website Project]",
+        "category": "Corporate Website",
+        "layout": "corporate",
+        "description": "Sample entry — a corporate site with a reusable section system, team and careers pages, and accessible navigation.",
+        "tech": [
+          "HTML5",
+          "CSS3",
+          "Bootstrap",
+          "JavaScript"
+        ],
+        "image": "",
+        "liveUrl": "",
+        "githubUrl": "",
+        "placeholder": true
+      },
+      {
+        "id": "portfolio",
+        "title": "[Portfolio Website Project]",
+        "category": "Portfolio Website",
+        "layout": "portfolio",
+        "description": "Sample entry — a personal portfolio for a creative professional with a filterable gallery and smooth scroll animations.",
+        "tech": [
+          "React.js",
+          "Tailwind CSS",
+          "Motion"
+        ],
+        "image": "",
+        "liveUrl": "",
+        "githubUrl": "",
+        "placeholder": true
+      },
+      {
+        "id": "ecommerce",
+        "title": "[E-commerce Frontend Project]",
+        "category": "E-commerce Frontend",
+        "layout": "ecommerce",
+        "description": "Sample entry — a storefront UI with product listing, filters, product detail and a cart flow built from reusable components.",
+        "tech": [
+          "React.js",
+          "JavaScript",
+          "Tailwind CSS"
+        ],
+        "image": "",
+        "liveUrl": "",
+        "githubUrl": "",
+        "placeholder": true
+      },
+      {
+        "id": "dashboard",
+        "title": "[Dashboard UI Project]",
+        "category": "Dashboard UI",
+        "layout": "dashboard",
+        "description": "Sample entry — an admin dashboard interface with sidebar navigation, data cards, tables and a responsive layout.",
+        "tech": [
+          "React.js",
+          "Tailwind CSS"
+        ],
+        "image": "",
+        "liveUrl": "",
+        "githubUrl": "",
+        "placeholder": true
+      },
+      {
+        "id": "landing",
+        "title": "[Landing Page Project]",
+        "category": "Landing Page",
+        "layout": "landing",
+        "description": "Sample entry — a conversion-focused product landing page with a clear hero, feature sections, pricing and FAQ.",
+        "tech": [
+          "HTML5",
+          "Tailwind CSS",
+          "JavaScript"
+        ],
+        "image": "",
+        "liveUrl": "",
+        "githubUrl": "",
+        "placeholder": true
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What I Can Do For You",
+    "description": "From a single landing page to a full React frontend or a WordPress site — focused services built on solid, maintainable code.",
+    "items": [
+      {
+        "title": "Responsive Website Development",
+        "icon": "MonitorSmartphone",
+        "description": "Websites that look and work right on every screen — from large desktops to small phones — built mobile-first with fluid layouts."
+      },
+      {
+        "title": "React Frontend Development",
+        "icon": "Atom",
+        "description": "Component-based React applications with clean state management, reusable UI and a structure that stays easy to maintain."
+      },
+      {
+        "title": "Landing Page Development",
+        "icon": "Rocket",
+        "description": "Focused, fast-loading landing pages with clear hierarchy and calls to action, designed to turn visitors into leads."
+      },
+      {
+        "title": "Business Website Development",
+        "icon": "Building2",
+        "description": "Professional multi-page websites for businesses — services, about, contact and more — with SEO-friendly, semantic markup."
+      },
+      {
+        "title": "Website UI Implementation",
+        "icon": "PenTool",
+        "description": "Turning Figma, XD or PSD designs into accurate, accessible and interactive interfaces that match the design down to the spacing."
+      },
+      {
+        "title": "Website Optimization",
+        "icon": "Gauge",
+        "description": "Auditing and improving existing sites: load speed, image delivery, responsiveness, cross-browser bugs and code clean-up."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "My Development Process",
+    "description": "A clear, collaborative workflow, so you always know what's happening and what comes next.",
+    "steps": [
+      {
+        "title": "Understand Requirements",
+        "icon": "MessagesSquare",
+        "description": "We talk through your goals, audience, content and timeline so the scope is clear from day one."
+      },
+      {
+        "title": "Planning & Research",
+        "icon": "Compass",
+        "description": "I map out pages, components and the tech approach, and review references before writing code."
+      },
+      {
+        "title": "UI Implementation",
+        "icon": "LayoutTemplate",
+        "description": "The design becomes a responsive, reusable component system with consistent spacing and type."
+      },
+      {
+        "title": "Development",
+        "icon": "CodeXml",
+        "description": "Interactions, logic and integrations are built in clean, maintainable JavaScript and React."
+      },
+      {
+        "title": "Testing & Optimization",
+        "icon": "ScanSearch",
+        "description": "Cross-browser and device testing, accessibility checks and performance tuning before launch."
+      },
+      {
+        "title": "Final Delivery",
+        "icon": "PackageCheck",
+        "description": "A production build, deployment support and a clean handover so you can grow it with confidence."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's Build Something Amazing Together",
+    "description": "Have a project in mind, a role to fill, or just want to say hello? Send me a message and I'll get back to you.",
+    "socialsLabel": "Find me online",
+    "buttonLabel": "Send Message",
+    "successTitle": "Message sent. Thank you!",
+    "successText": "I've received your message and will get back to you as soon as I can."
+  },
+  "footer": {
+    "brand": "MEHEDI HASAN",
+    "description": "Frontend Developer with 5–6 years of experience building responsive, accessible and high-performance websites and web applications.",
+    "copyright": "All rights reserved."
+  }
+}
