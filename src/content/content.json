@@ -2,44 +2,39 @@
   "site": {
     "name": "Mehedi Hasan",
     "logo": "MEHEDI",
-    "logoMark": "MH",
-    "role": "Frontend Developer",
+    "logoMark": "MD",
+    "role": "Web Developer",
     "experience": "5–6 years",
-    "email": "hello@your-domain.com",
-    "location": "Your City, Country",
-    "cvUrl": "/cv/Mehedi-Hasan-CV.pdf",
+    "email": "mehedi6463@gmail.com",
+    "location": "Dhaka, Bangladesh.",
+    "cvUrl": "/uploads/mehedi_hasan-cv-_2025-mwkty7vx.pdf",
     "cvIsPlaceholder": true,
     "cvLabel": "Download CV",
     "availability": {
       "available": true,
-      "label": "Available for freelance & full-time roles",
-      "busyLabel": "Currently booked — open to future projects"
+      "label": "This site is under construction",
+      "busyLabel": "right now"
     },
     "socials": [
       {
         "name": "GitHub",
         "icon": "github",
-        "href": "https://github.com/your-username"
+        "href": "https://github.com/mehedi6463"
       },
       {
         "name": "LinkedIn",
         "icon": "linkedin",
-        "href": "https://www.linkedin.com/in/your-username"
-      },
-      {
-        "name": "Facebook",
-        "icon": "facebook",
-        "href": "https://www.facebook.com/your-username"
+        "href": "https://www.linkedin.com/in/muhammad-mehedi-b75244149/"
       }
     ]
   },
   "seo": {
-    "title": "Mehedi Hasan — Frontend Developer",
-    "description": "Mehedi Hasan is a Frontend Developer with 5–6 years of experience building modern, responsive, high-performance websites and web apps with React, JavaScript, Tailwind CSS, WordPress and Wix.",
-    "siteUrl": "https://your-domain.com/"
+    "title": "Mehedi Hasan — Web Developer",
+    "description": "Mehedi Hasan is a Web Developer with 5–6 years of experience building modern, responsive, high-performance websites and web apps with React, JavaScript, Tailwind CSS and WordPress  etc.",
+    "siteUrl": "https://portfolio-site.mehedi6463.workers.dev/"
   },
   "theme": {
-    "defaultMode": "dark",
+    "defaultMode": "system",
     "dark": {
       "bg": "#061a23",
       "bg2": "#092635",
@@ -88,7 +83,7 @@
     {
       "id": "process",
       "label": "Process",
-      "visible": true,
+      "visible": false,
       "hideFromNav": true
     },
     {
@@ -100,10 +95,10 @@
   "hero": {
     "greeting": "Hi, I'm",
     "showWave": true,
-    "headline": "Frontend Developer Crafting",
+    "headline": "Web Developer Crafting",
     "highlight": "Modern Digital Experiences.",
-    "text": "I'm a passionate Frontend Developer with 5–6 years of experience turning creative ideas into responsive, interactive, and high-performance web experiences.",
-    "image": "/images/profile.webp",
+    "text": "I'm a passionate Web Developer with 5–6 years of experience turning creative ideas into responsive, interactive, and high-performance web experiences.",
+    "image": "/uploads/mehedi-mwkuos4e.webp",
     "imageAlt": "Portrait of Mehedi Hasan",
     "primaryLabel": "View My Work",
     "resumeLabel": "Download Resume",
@@ -115,20 +110,24 @@
         "label": "React.js"
       },
       {
+        "icon": "javascript",
+        "label": "JavaScript"
+      },
+      {
         "icon": "tailwind",
         "label": "Tailwind CSS"
       },
       {
-        "icon": "javascript",
-        "label": "JavaScript"
+        "icon": "css3",
+        "label": "CSS3"
       },
       {
         "icon": "html5",
         "label": "HTML5"
       },
       {
-        "icon": "css3",
-        "label": "CSS3"
+        "icon": "javascript",
+        "label": "PHP"
       }
     ],
     "codeCard": {
@@ -174,9 +173,9 @@
     "title": "A Little About Me",
     "image": "/images/about.webp",
     "imageAlt": "Mehedi Hasan sitting on a motorcycle on a city street",
-    "caption": "Mehedi Hasan · Frontend Developer",
+    "caption": "Mehedi Hasan · Web Developer",
     "paragraphs": [
-      "I'm **Mehedi Hasan**, a frontend developer who enjoys the moment a design stops being a static picture and becomes something people can actually use. For the past **5–6 years**, that has been my work — building websites and web applications that are fast, responsive and easy to use.",
+      "This is  **Mehedi Hasan**, a web developer who enjoys the moment a design stops being a static picture and becomes something people can actually use. For the past **5–6 years**, that has been my work — building websites and web applications that are fast, responsive and easy to use.",
       "My focus is turning UI/UX designs into clean, reusable and maintainable frontend code with HTML, CSS, JavaScript, React and Tailwind CSS — and building and customising sites on CMS platforms like WordPress and Wix. I care about the details that make an interface feel right: consistent spacing, smooth interactions, accessible markup and layouts that hold up on every screen size.",
       "The web keeps moving, so I keep learning — exploring new tools, patterns and techniques that help me build better experiences."
     ],
